@@ -1,4 +1,4 @@
-module "vpc" {
+module "network_vpc" {
   source     = "github.com/csp0403/tf_module_vpc.git"
   env        = var.env
 
